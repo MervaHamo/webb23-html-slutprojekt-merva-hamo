@@ -1,0 +1,9 @@
+/*på min sida: Mörkt tema */
+@media (prefers-color-scheme:dark) {
+    body{
+         background-color: black;
+    }
+    img{  
+        filter: brightness(0.8);
+    }
+  }
