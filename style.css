@@ -52,6 +52,12 @@ border-bottom: 1px solid transparent;
 transition: all .40s ease;
 }
 
+header:hover{
+background-color: #eb4a4a;
+
+    transition: all .40s ease;
+}
+
 .logo img{
 width: 135px;
 height: auto;
@@ -228,7 +234,7 @@ span{
     header.sticky{
         padding:10px 16%;
         background: var(--bg-color);
-        border-bottom: 1px solid #0e1630;
+        border-bottom: 1px solid #34422b;
     
     }
     
@@ -734,8 +740,8 @@ span{
                     color: var(--main-color);
                 }
                
-                .contact-form
-                 form input, form textarea{
+.contact-form
+ form input, form textarea{
 border: none;
 outline: none;
 width: 100%;
@@ -910,29 +916,9 @@ section{
     }
 }
 
-.carousel-item img {
-    height: 43px;
-    object-fit: cover;
-  }
-  
-  .carousel-control-prev-icon,
-  .carousel-control-next-icon {
-    background-image: none;
-  }
-  
-  .carousel-control-prev-icon:before {
-    content: '<';
-    font-size: 30px;
-    color: #e32222;
-  }
-  
-  .carousel-control-next-icon:before {
-    content: '>';
-    font-size: 30px;
-    color: #cf1d1d;
-  }
+
   h1 {
-    color: red;
+    color: rgb(38, 175, 127);
   }
   .blink {
     animation: blink 1s linear infinite;
@@ -944,5 +930,5 @@ section{
     100% { opacity: 1; }
   }
   
-
+ 
 
