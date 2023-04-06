@@ -1,5 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
 
-
+}
 
 :root{
     --bg-color:#020312;
@@ -906,3 +909,40 @@ section{
         --h2-font: 2.7rem;
     }
 }
+
+.carousel-item img {
+    height: 43px;
+    object-fit: cover;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-image: none;
+  }
+  
+  .carousel-control-prev-icon:before {
+    content: '<';
+    font-size: 30px;
+    color: #e32222;
+  }
+  
+  .carousel-control-next-icon:before {
+    content: '>';
+    font-size: 30px;
+    color: #cf1d1d;
+  }
+  h1 {
+    color: red;
+  }
+  .blink {
+    animation: blink 1s linear infinite;
+  }
+  
+  @keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+
+
